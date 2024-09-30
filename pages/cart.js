@@ -79,9 +79,13 @@ export default function Cart() {
         <Table className={styles.table} data={data} columns={columns} />
 
         <p className={styles.checkout}>
+          <p>Tel. +372 32421023 Adress: Example 24</p>
+          <p>E-mail: example@gmail.com</p>
+          <p>Panki arve: EE123456789101010</p>
           <button className={styles.button} onClick={() => checkout()}>
           Välja Kirjutada
           </button>
+          <p>Tagastus 14 päeva vahemikus.</p>
         </p>
       </main>
     </div>

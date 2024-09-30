@@ -21,7 +21,7 @@ const Nav = () => {
       <p>
         <Link href="/cart">
           <button>
-            <FaShoppingCart size={22} color="whitesmoke" />
+            <FaShoppingCart size={50} color="whitesmoke" />
             <p>{totalPrice} €</p>
           </button>
         </Link>
