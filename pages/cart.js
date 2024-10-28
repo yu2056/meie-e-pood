@@ -67,13 +67,13 @@ export default function Cart() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ostu Korv - Maalingu Pood</title>
+        <title>Ostukorv - Maalingu Pood</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <FaShoppingCart /> Korv
+          <FaShoppingCart /> Ostukorv
         </h1>
 
         <Table className={styles.table} data={data} columns={columns} />

@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Nav from "../components/Nav";
 import { CartContext, useCartState } from "@/hooks/useCart";
+import React from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const cart = useCartState()

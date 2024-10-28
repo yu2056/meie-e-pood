@@ -3,6 +3,7 @@ import styles from "@/styles/Home.module.css";
 import products from "../products.json";
 import { useCart } from "../hooks/useCart";
 import Link from "next/link";
+import React from "react";
 
 export default function Home() {
   //@ts-ignore
@@ -31,7 +32,7 @@ export default function Home() {
                   className={styles.button}
                   onClick={() => addToCart({ id })}
                 >
-                  Panna Korvi
+                  Panna Ostukorvi
                 </button>
               </li>
             );

@@ -29,7 +29,7 @@ const Product = ({ product }) => {
 
           <p>
             <button className={styles.button} onClick={() => addToCart({ id })}>
-              Osta
+              Panna Ostukorvi
             </button>
           </p>
         </div>
