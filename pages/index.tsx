@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Maalingu Pood</title>
+        <title>Магазин Картин</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
@@ -32,7 +32,7 @@ export default function Home() {
                   className={styles.button}
                   onClick={() => addToCart({ id })}
                 >
-                  Panna Ostukorvi
+                  Положить в Корзину
                 </button>
               </li>
             );

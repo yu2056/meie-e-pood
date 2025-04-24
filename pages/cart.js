@@ -9,19 +9,19 @@ import Table from "../components/Table";
 const columns = [
   {
     columnId: "title",
-    Header: "Maalingu Nimi",
+    Header: "Название Картины",
   },
   {
     columnId: "quantity",
-    Header: "Kogus",
+    Header: "Количество",
   },
   {
     columnId: "pricePerItem",
-    Header: "Hind Ühele Asjale",
+    Header: "Цена За Штуку",
   },
   {
     columnId: "total",
-    Header: "Maalingu Summa",
+    Header: "Общая Стоимость",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function Cart() {
             defaultValue={item.quantity}
           ></input>
           <button className={styles.updateButton} type="submit">
-            Uuenda
+            Обновить
           </button>
         </form>
       );
@@ -67,25 +67,25 @@ export default function Cart() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ostukorv - Maalingu Pood</title>
+        <title>Корзина - Магазин Картин</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <FaShoppingCart /> Ostukorv
+          <FaShoppingCart /> Корзина
         </h1>
 
         <Table className={styles.table} data={data} columns={columns} />
 
         <p className={styles.checkout}>
-          <p>Tel. +372 32421023 Adress: Example 24</p>
-          <p>E-mail: example@gmail.com</p>
-          <p>Panki arve: EE123456789101010</p>
+          <p>Тел. +372 32421023 Адрес: Example 24</p>
+          <p>Э-почта: example@gmail.com</p>
+          <p>Счёт банка: EE123456789101010</p>
           <button className={styles.button} onClick={() => checkout()}>
-          Välja Kirjutada
+          Оформить покупку
           </button>
-          <p>Tagastus 14 päeva vahemikus.</p>
+          <p>Возврат в течении 14 дней.</p>
         </p>
       </main>
     </div>

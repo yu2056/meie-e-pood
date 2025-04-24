@@ -29,7 +29,7 @@ const Product = ({ product }) => {
 
           <p>
             <button className={styles.button} onClick={() => addToCart({ id })}>
-              Panna Ostukorvi
+              Положить в корзину
             </button>
           </p>
         </div>

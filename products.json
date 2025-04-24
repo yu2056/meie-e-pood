@@ -1,42 +1,42 @@
 [{
     "id": "price_1Mb6NPIG28tlgXFUlYF3NldB",
     "title": "Field flowers",
-    "description": "Vahva maaling 1.",
+    "description": "Отличная картина 1.",
     "image": "/images/Field flowers.jpg",
     "price": 200.00
 },
 {
     "id": "price_1Mb6QMIG28tlgXFUA1b9Zv45",
     "title": "Field",
-    "description": "Vahva maaling 2.",
+    "description": "Отличная картина 2.",
     "image": "/images/Field.jpg",
     "price": 100.00
 },
 {   
     "id": "price_1Mb6RGIG28tlgXFUTKg9L4fV",
     "title": "Old glass",
-    "description": "Vahva maaling 3.",
+    "description": "Отличная картина 3.",
     "image": "/images/Old glass.jpg",
     "price": 250.00
 },
 {
     "id": "price_1Mb6NPIG28tlgXFUlYF3NldC",
     "title": "Flowers",
-    "description": "Vahva maaling 4.",
+    "description": "Отличная картина 4.",
     "image": "/images/Flowers.jpg",
     "price": 200.00
 },
 {
     "id": "price_1Mb6QMIG28tlgXFUA1b9Zv46",
     "title": "Greece port",
-    "description": "Vahva maaling 5.",
+    "description": "Отличная картина 5.",
     "image": "/images/Greece port.jpg",
     "price": 100.00
 },
 {   
     "id": "price_1Mb6RGIG28tlgXFUTKg9L5fV",
     "title": "Flowers branch",
-    "description": "Vahva maaling 6.",
+    "description": "Отличная картина 6.",
     "image": "/images/Flowers branch.jpg",
     "price": 250.00
 }]

@@ -11,11 +11,11 @@ const Nav = () => {
       <div className={styles.main}>
       <Link href="/">
           <button>
-        <p className={styles.navTitle}>Maalingu Pood</p>
+        <p className={styles.navTitle}>Магазин Картин</p>
         </button>
         </Link>
         <p className={styles.description}>
-          Unikaalsed maalingud meie e-poes!
+          Уникальные картины в нашем э-магазине!
         </p>
       </div>
       <p>
