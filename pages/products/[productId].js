@@ -25,7 +25,7 @@ const Product = ({ product }) => {
 
           <p className={styles.description}>{description}</p>
 
-          <p className={styles.description}>${price.toFixed(2)}</p>
+          <p className={styles.description}>{price.toFixed(2)}€</p>
 
           <p>
             <button className={styles.button} onClick={() => addToCart({ id })}>
